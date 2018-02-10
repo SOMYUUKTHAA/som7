@@ -2,10 +2,11 @@
 int main()
 {
 char a[]="Hello";
-int n=0;
-for(n=0;n>4;n++)
+int i,n;
+printf("\nenter the limit\n");
+scanf("%d",&n);
+for(i=0;i<n;i++)
 {
-printf("%c",a);
+printf("\n%s",a);
 }
-return 0;
 }
